@@ -1,0 +1,36 @@
+name: qr_code_getx
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  cloud_firestore: 4.8.3
+  cupertino_icons: ^1.0.2
+  firebase_auth: 4.7.1
+  firebase_core: 2.15.0
+  flutter:
+    sdk: flutter
+  get: 4.6.5
+  open_file: 3.2.1
+  path_provider: ^2.0.11
+  pdf: 3.3.0
+  qr_flutter: 4.0.0
+  flutter_barcode_scanner: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/OpenSans-Regular.ttf
+    - assets/OpenSans-Bold.ttf
+    - assets/OpenSans-Italic.ttf
+    - assets/OpenSans-BoldItalic.ttf
+    - assets/CourierPrime-Regular.ttf
+    
+  
